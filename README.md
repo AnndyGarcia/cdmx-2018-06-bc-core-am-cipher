@@ -1,9 +1,7 @@
-encoding: UTF-8
-
-# Proyecto *"Cifrado Cesar"* del BootCamp 2018-1 de Laboratoria.
+﻿# Proyecto *"Cifrado Cesar"* del BootCamp 2018-1 de Laboratoria.
 #### Creado por *Andrea Yameli Garcia Sanchez*.
 
-En esta primera version (07/06/18) se encuentra un dise�o elemental, para evitar la confusion y hacerlo sumamente funcional
+En esta primera version (07/06/18) se encuentra un diseño elemental, para evitar la confusion y hacerlo sumamente funcional
 
 * A nivel tecnico:
 

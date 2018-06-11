@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cifrado Cesar</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <h3>Cifrado Cesar</h3>
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <p>Ingresa el texto a codificar/decodificar.</p>
+    <input type="text" id="fraseInicial"><br>
+    <p>Ingresa la llave (valor numerico)</p>
+    <input type="text" id="key"><br><br>
+  <button type="submit" onclick="encodeText()">Codificar</button> 
+  <button type="submit" onclick="uncodeText()">Decodificar</button><br><br>
+    <div id = "descifrado">Aqui aparece tu texto cifrado/descifrado</div>
   </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>

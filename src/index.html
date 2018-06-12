@@ -4,42 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Cifrado Cesar</title>
-
-
-
       <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
-
-  <html>
-  <head>
-    <h3>Cifrado Cesar</h3>
-  </head>
-  <body>
-    <p id = "definition">El cifrado César es uno de los primeros métodos de cifrado conocidos<br>
-      históricamente. Consiste en escribir el mensaje con un alfabeto<br>
-      que estaba formado por las letras del alfabeto latino normal desplazadas "x"<br>
-      posiciones a la derecha.<br></p>
-    <p>Ingresa el texto a codificar/decodificar.</p>
-    <input type="text" id="fraseInicial"><br>
-    <p>Ingresa la llave (valor numerico)</p>
-    <input type="text" id="key"><br><br>
+  <h3>Cifrado Cesar</h3>
+  <p id = "definition">El cifrado César es uno de los primeros métodos de cifrado conocidos<br>
+      históricamente. Consiste en escribir el mensaje, y el cifrado se forma<br>
+      con las letras del alfabeto desplazadas "x" posiciones a la derecha.<br></p>
+  <p>Ingresa el texto a codificar/decodificar.</p>
+  <input type="text" id="fraseInicial"><br>
+  <p>Ingresa la llave (valor numerico)</p>
+  <input type="text" id="key"><br><br>
   <button type="submit" onclick="encodeText()">Codificar</button>
   <button type="submit" onclick="uncodeText()">Decodificar</button><br><br>
-    <div id = "descifrado">Aqui aparece tu texto cifrado/descifrado</div>
-  </body>
-</html>
+  <div id = "descifrado">Aqui aparece tu texto cifrado/descifrado</div>
 
-
-
-    <script  src="index.js"></script>
-
-
-
-
+  <script  src="index.js"></script>
 </body>
-
 </html>

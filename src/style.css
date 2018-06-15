@@ -13,12 +13,14 @@ h3 {
 
 #definition{
   font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 #descifrado {
   border : 1px groove;
   font-size: 12px;
-  display: inline-block;
+  display: flex;
   padding : 1em;
   width: 25%;
   height: 50%;

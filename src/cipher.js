@@ -33,11 +33,11 @@ window.cipher = {
         code.push(String.fromCharCode(string.charCodeAt([j])));
       }
       else if(string.charCodeAt(j)>=97 && string.charCodeAt(j)<=122){ //Se define el limite del recorrido al alfabeto en minusculas
-        message.push((string.charCodeAt(j) + 97 + parseInt(offset))% 26 - 97); //Convierte las letras del mensaje en codigo ASCII, aplica la formula y las almacena
+        message.push((string.charCodeAt(j) - 122 - parseInt(offset))% 26 + 122); //Convierte las letras del mensaje en codigo ASCII, aplica la formula y las almacena
         code.push(String.fromCharCode(message[j])); //Convierte los codigos ASCII en letras y las almacena
       }
       else if(string.charCodeAt(j)>=65 && string.charCodeAt(j)<=90){ //Se define el limite del recorrido al alfabeto en mayusculas
-        message.push((string.charCodeAt(j) + 65 + parseInt(offset))% 26 - 65); //Convierte las letras del mensaje en codigo ASCII, aplica la formula y las almacena
+        message.push((string.charCodeAt(j) - 90 - parseInt(offset))% 26 + 90); //Convierte las letras del mensaje en codigo ASCII, aplica la formula y las almacena
         code.push(String.fromCharCode(message[j]));  //Convierte los codigos ASCII en letras y las almacena
       }
     }

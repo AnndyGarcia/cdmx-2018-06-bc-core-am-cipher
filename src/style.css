@@ -1,5 +1,5 @@
 body {
-  font-size : 20px;
+  font-size : 17px;
   font-family : Arial;
   text-align : center;
 }
@@ -11,17 +11,28 @@ h3 {
   font-size: 30px;
 }
 
-#definition{
+.definition{
   font-size: 15px;
-  display: flex;
-  justify-content: center;
+  padding: 10px;
+  float: left;
+  width: 45%;
+  text-align: justify;
+}
+
+.cipherContent{
+  padding: 10px;
+}
+
+#caesar{
+  margin: 0px;
+  float: left;
 }
 
 #descifrado {
   border : 1px groove;
+  display: inline-block;
   font-size: 12px;
-  display: flex;
-  padding : 1em;
+  padding : 10px;
   width: 25%;
   height: 50%;
 }

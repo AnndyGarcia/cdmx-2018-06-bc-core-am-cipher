@@ -1,7 +1,7 @@
 window.cipher = {
-    offset : 33,
-    string : "",
-    encode : (offset, string) => { //Funcion encode que codifica el texto
+  //  offset : 33,
+    //string : "",
+    encode : (string, offset) => { //Funcion encode que codifica el texto
     //declaracion de arreglos vacios
     let message = [];
     let code = [];
@@ -23,7 +23,7 @@ window.cipher = {
     return newCode; //Retorna la nueva cadena codificada
     },
 
-    decode : (offset, string) => { //Funcion que decodifica
+    decode : (string, offset) => { //Funcion que decodifica
     //declaracion de arreglos vacios
     let message = [];
     let code = [];

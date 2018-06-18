@@ -5,16 +5,16 @@ let botonDecifrar = document.getElementById("decipher"); //Boton que acciona la 
 
 botonCifrar.addEventListener("click", event => { //Se agrega la el evento click sobre el boton cifrar
   let encodeText = window.cipher.encode( //se llama a la funcion encode
-    offset.value, //se agregan los parametros
-    string.value
+    string.value, //se agregan los parametros
+    offset.value
   );
   document.getElementById("descifrado").innerHTML = (encodeText); //Se sustituye el texto codificado en el cuadro de resultados
 });
 
 botonDecifrar.addEventListener("click", event => { //Se agrega la el evento click sobre el boton descifrar
   let decodeText = window.cipher.decode( //se llama a la funcion decode
-    offset.value, //se agregan los parametros
-    string.value
+    string.value, //se agregan los parametros
+    offset.value
   );
   document.getElementById("descifrado").innerHTML = (decodeText); //Se sustituye el texto codificado en el cuadro de resultados
 });

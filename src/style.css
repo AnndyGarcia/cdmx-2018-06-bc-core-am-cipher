@@ -1,5 +1,5 @@
 body {
-  font-size : 17px;
+  font-size : 1em;
   font-family : 'Muli', sans-serif;
   text-align : center;
 }
@@ -13,13 +13,13 @@ h3 {
 }
 
 #definition {
-  font-size: 15px;
+  font-size: 1.2em;
 }
 
 #descifrado {
   border : 1px groove;
   display: inline-block;
-  font-size: 12px;
+  font-size: 1.4em;
   padding : 0.5em;
   width: 50%;
   height: 25%;

@@ -1,5 +1,5 @@
 body {
-  font-size : 1em;
+  font-size : 0.5em;
   font-family : 'Muli', sans-serif;
   text-align : center;
 }
@@ -9,18 +9,18 @@ h3 {
   font-family : 'Pangolin', cursive;
   text-align : center;
   padding : 0.5em;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 #definition {
-  font-size: 1.2em;
+  font-size: 0.5em;
 }
 
 #descifrado {
   border : 1px groove;
   display: inline-block;
-  font-size: 1.4em;
-  padding : 0.5em;
+  font-size: 0.5em;
+  padding : 0.2em;
   width: 50%;
   height: 25%;
 }

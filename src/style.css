@@ -1,49 +1,26 @@
 body {
-
   font-size : 17px;
-
-  font-family : Arial;
-
+  font-family : 'Muli', sans-serif;
   text-align : center;
-
 }
-
-
 
 h3 {
-
   border : 2px groove #BB8FCE;
-
+  font-family : 'Pangolin', cursive;
   text-align : center;
-
-  padding : 1em;
-
-  font-size: 30px;
-
+  padding : 0.5em;
+  font-size: 2.5em;
 }
 
-
-
-
 #definition {
-
   font-size: 15px;
 }
 
-
-
 #descifrado {
-
   border : 1px groove;
-
   display: inline-block;
-
   font-size: 12px;
-
   padding : 10px;
-
   width: 50%;
-
   height: 25%;
-
 }

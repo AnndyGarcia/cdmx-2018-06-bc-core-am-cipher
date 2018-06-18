@@ -6,18 +6,20 @@
   <title>Cifrado Cesar</title>
       <meta nade = "viewport" content = "width = device-width, initial-scale = 1.0, shrink-to-fip = no">
       <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="web.css"></head>
+      <link rel="stylesheet" href="web.css">
+      <link href="https://fonts.googleapis.com/css?family=Muli|Pangolin" rel="stylesheet"></head>
 
 <body>
   <h3>Cifrado César</h3>
   <div class = "cipherContent">
-    <p>Ingresa el texto a codificar/decodificar.</p>
+    <p>Ingresa el texto a codificar/decodificar.<br>
+    (sin números ni caracteres especiales)</p>
     <input type="text" id="fraseInicial"><br>
-    <p>Ingresa la llave (valor numerico)</p>
+    <p>Ingresa la llave.</p>
     <input type="number" id="key"><br><br>
     <button type="button" id = "cipher">Codificar</button>
     <button type="button" id = "decipher">Decodificar</button><br><br>
-    <div id = "descifrado">Aqui aparece tu texto cifrado/descifrado</div>
+    <div id = "descifrado">Aquí aparece tu texto cifrado/descifrado</div>
   </div>
   <p class = "definition">El cifrado César es uno de los primeros métodos de cifrado conocidos
      históricamente. Consiste en escribir el mensaje, y el cifrado se forma con las letras

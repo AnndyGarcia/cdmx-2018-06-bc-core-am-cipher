@@ -1,5 +1,5 @@
 body {
-  font-size : 0.5em;
+  font-size : 1em;
   font-family : 'Muli', sans-serif;
   text-align : center;
 }
@@ -8,8 +8,8 @@ h3 {
   border : 2px groove #BB8FCE;
   font-family : 'Pangolin', cursive;
   text-align : center;
-  padding : 0.5em;
-  font-size: 1.5em;
+  padding : 1em;
+  font-size: 2.5em;
 }
 
 #definition {
@@ -19,8 +19,8 @@ h3 {
 #descifrado {
   border : 1px groove;
   display: inline-block;
-  font-size: 0.5em;
-  padding : 0.2em;
+  font-size: 1em;
+  padding : 1em;
   width: 50%;
   height: 25%;
 }

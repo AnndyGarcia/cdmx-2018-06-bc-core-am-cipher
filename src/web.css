@@ -1,0 +1,55 @@
+@media (max-width: 800px){
+
+  
+.definition {
+
+    font-size: 15px;
+
+    padding: 1em 5em 1em 1em;
+
+    float: right;
+
+    width: 45%;
+
+    text-align: justify;
+
+  }
+
+
+  .cipherContent {
+
+    padding: 1em 1em 1em 5em;
+
+    float: left;
+
+  }
+
+
+
+  .#caesar {
+
+    margin: 0px;
+
+    float: right;
+
+  }
+
+
+
+  .#descifrado {
+
+    border : 1px groove;
+
+    display: inline-block;
+
+    font-size: 12px;
+
+    padding : 10px;
+
+    width: 50%;
+
+    height: 25%;
+
+  }
+
+}

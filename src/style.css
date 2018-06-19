@@ -8,8 +8,13 @@ h3 {
   border : 2px groove #BB8FCE;
   font-family : 'Pangolin', cursive;
   text-align : center;
-  padding : 1em;
+  padding : 10px;
   font-size: 3em;
+}
+
+input{
+  padding: 12px 0px 12px 0px;
+  text-align : center;
 }
 
 #definition {

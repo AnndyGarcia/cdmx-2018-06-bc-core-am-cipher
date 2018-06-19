@@ -1,4 +1,4 @@
-let string = document.getElementById("fraseInicial"); //message guarda el valor del texto ingresado por el usuario
+let string = document.getElementById("frase-inicial"); //message guarda el valor del texto ingresado por el usuario
 let offset = document.getElementById("key"); //n guarda el numero que se recorre el encriptado
 let botonCifrar = document.getElementById("cipher"); //Boton que acciona la funcion encode
 let botonDecifrar = document.getElementById("decipher"); //Boton que acciona la funcion decode

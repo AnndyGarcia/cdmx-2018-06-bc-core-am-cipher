@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Cifrado Cesar</title>
-      <meta nade = "viewport" content = "width = device-width, initial-scale = 1.0, shrink-to-fip = no">
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="web.css">
       <link href="https://fonts.googleapis.com/css?family=Muli|Pangolin" rel="stylesheet"></head>
@@ -14,22 +13,21 @@
   <div class = "cipher-content">
     <p>Ingresa el texto a codificar/decodificar.<br>
     (sin números ni caracteres especiales)</p>
-    <input type="text" id="frase-inicial"><br>
+    <input type="text" id="initial-phrase"><br>
     <p>Ingresa la llave.</p>
     <input type="number" id="key"><br><br>
     <button type="button" id = "cipher">Codificar</button>
     <button type="button" id = "decipher">Decodificar</button><br><br>
-    <div id = "descifrado">Aquí aparece tu texto cifrado/descifrado</div>
+    <div id = "result">Aquí aparece tu texto cifrado/descifrado</div>
   </div>
   <p class = "definition">El cifrado César es uno de los primeros métodos de cifrado conocidos
      históricamente. Consiste en escribir el mensaje, y el cifrado se forma con las letras
       del alfabeto desplazadas "x" posiciones a la derecha. En el ejemplo de la imagen, el
        desplazamiento (llamado <b>llave</b>) es de 3 posiciones, haciendo que la A sea una D,
-        y así sucesivamente.<br><br><br>
-  <img id = "caesar" src="codigocesar.jpg" width="90%" height="45%"></p>
+        y así sucesivamente.<br><br><br></p>
+  <img id = "caesar" src="codigocesar.jpg" width="90%" height="45%">
 
   <script  src="cipher.js"></script>
   <script  src="index.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 </html>

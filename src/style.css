@@ -21,7 +21,7 @@ input{
   font-size: 12px;
 }
 
-#descifrado {
+#result {
   border : 1px groove;
   display: inline-block;
   font-size: 12px;

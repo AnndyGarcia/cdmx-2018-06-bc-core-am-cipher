@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  margin: auto 3em;
+}
+
+#result {
+  color: #FFFFFF;
+}
+
+.text {
+  text-align: initial;
+}
+
+.title {
+  border: 2px solid #b39ddb;
+}
